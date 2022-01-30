@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --white:#ffffff;
+  --yellow1:#F6C624;
+  --yellow2:#F8D04F;
+  --blue:#03738c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  padding-top: 76px;
+  font-weight: 600;
+}
+
+#home-quote {
+  background: url('../img/banner.png') center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .fixed-top {
+    position: relative;
+  }
+  body {
+    padding-top: 0;
+  }
+}
+.btn-block {
+  width: 140px;
+}
+
+.navbar {
+  background-color:var(--blue);
+  max-height: 143px;
+}
+.navbar a {
+  color: var(--white);
+}
+.navbar a img {
+  width: 45%;
+}
+.blockquote {
+  width: 40%;
+}
+.blockquote p {
+  font-size: 70px;
+}
+.blockquote button {
+  margin-top: 10%;
+  background-color: var(--yellow2);
+  color: var(--white);
+}
+.blockquote button:hover {
+  background-color: var(--white);
+  color: var(--yellow1);
+}
+.sejaVoluntario {
+  display: flex;
+  flex-direction: row;
+}
+.atividades h3 {
+  color: var(--blue);
+}
+.atividades p {
+  color: #8e8888;
+}
+.blue {
+  background: var(--blue);
+}
+.color {
+  color: var(--yellow1);
+}
+.corte {
+  display: flex;
+  position: absolute;
+}
+
+.slide {
+  max-width: 500px;
+
+}
+.log-footer{
+  max-width: 200px;
+}
+
