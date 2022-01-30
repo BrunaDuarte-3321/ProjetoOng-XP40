@@ -6,7 +6,8 @@
         <li>Botões</li>
         <li>Tipografia</li>
         <li>Carrossel</li>
-        <li>Formulário</li>
+        
+       
 </p>
 
 <h4>Requisitos:
