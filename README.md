@@ -1,7 +1,4 @@
-# Projeto_Caravan_Origamid
-Curso de Bootstrap - Pela Origamid
-Desenvolvida página de viagens totalmente responsiva.
-
+# Projeto XP40 ONG
 <p>Conhecimentos utilizados do Css Flexbox:<br>
     <ul>
         <li>CSS Grid</li>
@@ -21,5 +18,5 @@ Desenvolvida página de viagens totalmente responsiva.
 
 🌍 Let's code! 🚀
 
-https://user-images.githubusercontent.com/62124855/138210544-44a73927-5178-4b6c-a380-c40c2907ac73.mp4
+
 
