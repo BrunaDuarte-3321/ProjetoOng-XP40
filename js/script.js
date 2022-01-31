@@ -1,9 +1,17 @@
-/* Toltip da pg planos */
-var tooltipTriggerList = [].slice.call(
-  document.querySelectorAll('[data-bs-toggle="tooltip"]'),
-);
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl);
-});
-
-
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:20,
+  nav:true,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+      },
+      600:{
+          items:3,
+      },
+      1000:{
+          items:4,
+      }
+  }
+})
