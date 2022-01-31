@@ -17,12 +17,21 @@
 body {
   padding-top: 76px;
   font-weight: 600;
+  min-width: 520px;
 }
 
 .navbar {
   background-color: var(--blue);
   max-height: 143px;
+  color: var(--yellow);
 }
+#navbarNavAltMarkup {
+  background-color: var(--blue);
+}
+#navbarNavAltMarkup .nav-link{
+  color: var(--white);
+}
+
 .navbar a {
   color: var(--white);
 }
@@ -47,14 +56,6 @@ border-radius: 20px;
   background-size: cover;
 }
 
-@media screen and (max-width: 767px) {
-  .fixed-top {
-    position: relative;
-  }
-  body {
-    padding-top: 0;
-  }
-}
 .btn-block {
   width: 140px;
 }
@@ -63,7 +64,7 @@ border-radius: 20px;
   width: 50%;
 }
 .blockquote p {
-  font-size: 70px;
+  font-size: 60px;
 }
 .blockquote button {
   margin-top: 10%;
@@ -74,6 +75,28 @@ border-radius: 20px;
   background-color: var(--white);
   color: var(--yellow);
 }
+
+@media screen and (max-width: 767px) {
+  .fixed-top {
+    position: relative;
+  }
+  body {
+    padding-top: 0;
+  }
+  .blockquote p {
+    font-size: 40px;
+  }
+  .p {
+    padding: 10px;
+  }
+  .navbar input{
+    display: none;
+  }
+  .navbar-brand{
+    display: none;
+  }
+}
+
 
 .atividades h3 {
   color: var(--blue);
@@ -110,6 +133,11 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
 }
+
+.image-shot{
+  min-width: 200px;
+}
+
 
 .log-footer {
   max-width: 150px;
