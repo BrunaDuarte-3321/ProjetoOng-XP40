@@ -6,7 +6,7 @@
   --blue: #03738c;
   --gray: #8e8888;
 }
-
+/* reset page */
 * {
   margin: 0;
   padding: 0;
@@ -21,11 +21,10 @@ body {
   padding-top: 70px;
   font-weight: 600;
 }
-
+/* estilização navbar */
 .navbar {
   background-color: var(--blue);
   max-height: 143px;
-
   height: 70px;
   color: var(--yellow);
   padding: 0px;
@@ -36,7 +35,6 @@ body {
 #navbarSupportedContent .nav-link {
   color: var(--white);
 }
-
 .navbar a {
   color: var(--white);
 }
@@ -46,26 +44,22 @@ body {
 .navbar a img {
   width: 35%;
 }
+.navbar-brand img {
+  max-width: 400px;
+}
 .form-control {
   background-color: var(--blue);
   width: 200px;
   height: 32px;
 }
-.navbar-brand img {
-  max-width: 400px;
-}
 
+/* ajuste 1° banner + blockquote */
 #home-quote {
   background: url('../img/banner.png') center center;
   width: 100%;
   height: 100%;
   background-size: cover;
 }
-
-.btn-block {
-  width: 140px;
-}
-
 .blockquote {
   max-width: 50%;
   text-align: start;
@@ -81,6 +75,62 @@ body {
 .blockquote button:hover {
   background-color: var(--white);
   color: var(--yellow);
+}
+.btn-block {
+  width: 140px;
+}
+
+/* Sessão atividades */
+.atividades h3 {
+  color: var(--blue);
+}
+.atividades p {
+  color: var(--gray);
+}
+
+/* Ajuste de imagens, cores  e alinhamento */
+.slide {
+  max-width: 1100px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgColor {
+  background: var(--blue);
+}
+.color {
+  color: var(--yellow);
+}
+.corte {
+  display: flex;
+  position: absolute;
+}
+.image-short {
+  min-width: 200px;
+  max-width: 350px;
+}
+.image-short1 {
+  min-width: 200px;
+  max-width: 370px;
+}
+.log-footer {
+  max-width: 150px;
+}
+em {
+  text-align: start;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1150px) {
+  .relative {
+    display: none;
+  }
+  .voluntario p {
+    font-size: 18px;    
+  }  
 }
 
 @media screen and (max-width: 767px) {
@@ -106,57 +156,3 @@ body {
     display: none;
   }
 }
-
-.atividades h3 {
-  color: var(--blue);
-}
-.atividades p {
-  color: var(--gray);
-}
-.bgColor {
-  background: var(--blue);
-}
-.color {
-  color: var(--yellow);
-}
-
-@media screen and (max-width: 1150px) {
-  .relative {
-    display: none;
-  }
-  .voluntario p {
-    font-size: 18px;    
-  }  
-}
-
-.corte {
-  display: flex;
-  position: absolute;
-}
-
-.slide {
-  max-width: 1100px;
-}
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-short {
-  min-width: 200px;
-  max-width: 350px;
-}
-.image-short1 {
-  min-width: 200px;
-  max-width: 370px;
-}
-
-.log-footer {
-  max-width: 150px;
-}
-em {
-  text-align: start;
-}
-
-
