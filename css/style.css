@@ -14,9 +14,12 @@
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
+
 body {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
   font-weight: 600;
-  min-width: 520px;
 }
 
 .navbar {
@@ -27,14 +30,14 @@ body {
   color: var(--yellow);
   padding: 0px;
 }
-#navbarNavAltMarkup {
-  background-color: rgba(3, 115, 140, 0.7);
+#navbarSupportedContent {
+  background: var(--blue);
 }
-#navbarNavAltMarkup .nav-link {
+#navbarSupportedContent .nav-link {
   color: var(--white);
 }
 
-a.nav-item {
+.navbar a {
   color: var(--white);
 }
 .navbar a:hover {
@@ -52,10 +55,6 @@ a.nav-item {
 .navbar-brand img {
   max-width: 400px;
 }
-.navbar-nav {
-  border: 5x solid red;
-  border-radius: 50px;
-}
 
 #home-quote {
   background: url('../img/banner.png') center center;
@@ -69,11 +68,11 @@ a.nav-item {
 }
 
 .blockquote {
-  width: 50%;
+  max-width: 50%;
   text-align: start;
 }
 .blockquote p {
-  font-size: 60px;
+  font-size: 50px;
 }
 .blockquote button {
   margin-top: 10%;
@@ -92,11 +91,14 @@ a.nav-item {
   body {
     padding-top: 0;
   }
-  .blockquote p {
-    font-size: 40px;
+  .blockquote button {
+    width: 80%;
+    height: 80%;
+    font-size: small;
   }
-  .p {
-    padding: 10px;
+
+  .blockquote p {
+    font-size: 25px;
   }
   .navbar input {
     display: none;
