@@ -98,7 +98,7 @@ body {
   }
 
   .blockquote p {
-    font-size: 25px;
+    font-size: 18px;
   }
   .navbar input {
     display: none;
@@ -125,12 +125,16 @@ body {
   .relative {
     display: none;
   }
+  .voluntario p {
+    font-size: 18px;    
+  }  
 }
 
 .corte {
   display: flex;
   position: absolute;
 }
+
 .slide {
   max-width: 1100px;
 }
@@ -146,7 +150,7 @@ body {
 }
 .image-short1 {
   min-width: 200px;
-  max-width: 450px;
+  max-width: 370px;
 }
 
 .log-footer {
@@ -156,6 +160,4 @@ em {
   text-align: start;
 }
 
-.voluntario {
-  max-height: 724px;
-}
+
