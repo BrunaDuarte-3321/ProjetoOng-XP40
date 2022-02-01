@@ -48,7 +48,6 @@ body {
 }
 .form-control {
   background-color: var(--blue);
-  border-radius: 20px;
   width: 200px;
   height: 32px;
 }
