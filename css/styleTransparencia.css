@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.accordion-body {
+  background: none;
+}
+
+.accordion-body a{
+  text-decoration: none;
+}
+
+.accordion-body li{
+  list-style-type: none;
+}
+
+.accordion-body li:hover{
+  text-decoration: underline;
+}
+
+.accordion-item {
+  border-style: none;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+.accordion-button {
+  padding-bottom: 3px;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+
+.transparencia {
+  height: 760px;
+  width: 100%;
+  padding: 80px 0 600px 0;
+}
