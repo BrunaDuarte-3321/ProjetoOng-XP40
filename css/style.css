@@ -156,3 +156,13 @@ em {
     display: none;
   }
 }
+
+h2{
+  color:#8e8888;
+}
+
+/* Ajustes do Accordion Informativo */
+
+.accordion{
+  color: none !important;
+}
