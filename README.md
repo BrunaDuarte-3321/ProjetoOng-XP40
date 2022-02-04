@@ -4,13 +4,12 @@
         <li>CSS Grid</li>
         <li>Botões</li>
         <li>Tipografia</li>
-        <li>Carrossel</li>
+        <li>Carrossel OWL</li>
         
        
 </p>
 
 <h4>Requisitos:
-
     HTML
     CSS
     BOOTSTRAP 5

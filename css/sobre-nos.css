@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap");
+
 :root {
-    --white: #ffffff;
-    --yellow: #f2b705;
-    --blue: #03738c;
-    --gray: #8e8888;
-  }
+  --white: #ffffff;
+  --yellow: #f2b705;
+  --blue: #03738c;
+  --gray: #8e8888;
+}
+
 
 .titulo {
   padding-left: 190px;

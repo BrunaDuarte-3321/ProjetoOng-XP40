@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --white: #ffffff;
+  --yellow: #f2b705;
+  --blue: #03738c;
+  --gray: #8e8888;
+}
+body{
+  width: 100%;
+  min-width: 480px;
+}
+h1{
+  padding: 100px 0;
+}
+.central{
+  display: flex;
+  justify-content: space-between;
+}
+.contato-form{
+  margin-right: 100px;
+}
+.resizedTextbox,
+input {
+  width: 100%;
+}
+.resizedTextbox {
+  height: 330px;
+}
+.btn {
+  width: 200px;
+  height: 56px;
+  margin: 32px auto;
+  background-color: var(--blue);
+  color: var(--white);
+}

@@ -47,7 +47,6 @@
 }
 
 .transparencia {
-  height: 760px;
-  width: 100%;
-  padding: 80px 0 600px 0;
+  width: 100%; 
+  padding: 80px 0 300px;
 }
