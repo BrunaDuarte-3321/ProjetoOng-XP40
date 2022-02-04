@@ -8,7 +8,6 @@
 }
 body{
   width: 100%;
-  min-width: 480px;
 }
 h1{
   padding: 100px 0;
@@ -34,6 +33,10 @@ input {
   background-color: var(--blue);
   color: var(--white);
 }
+.contato-paragrafos img {
+  width: 30px;
+  height: 30px;
+}
 
 /* Media queries */
 
@@ -44,5 +47,8 @@ input {
   }
   .contato-map-responsive {
     padding-bottom: 50px;
+  }
+  .contato-map-responsive iframe{
+    width: 90%;
   }
 }
