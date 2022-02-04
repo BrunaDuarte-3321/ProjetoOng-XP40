@@ -52,7 +52,7 @@
   padding-top: 100px;
   padding-bottom: 190px;
 }
-.outro {
+.destaque {
   margin-top: 100px;
   margin-right: 120px;
 }
@@ -128,5 +128,16 @@ h2 {
   .lista-instalacoes, .lista {
     padding: 0px 15px;
     font-size: 125%;
+  }
+
+  .destaque {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .container.org {
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 }
