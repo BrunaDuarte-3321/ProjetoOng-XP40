@@ -102,8 +102,33 @@ h2 {
 
 @media screen and (max-width: 1150px) {
   .sobre-nos-imagem {
-    max-width: 805px;
+    max-width: 550px;
     margin-top: 80px;
+  }
+
+  .titulo {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .texto-beneficente {
+    margin-right: 0px;
+  }
+
+  .lista-instalacoes, .lista {
+    padding: 0px 50px;
+  }
+  
+  .destaque {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .container.org {
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 50px;
   }
 }
 
@@ -114,20 +139,13 @@ h2 {
     margin-top: 30px;
   }
 
-  .texto-beneficente {
-    margin-right: 0px;
-  }
-
   .titulo {
-    text-align: center;
-    padding-left: 0px;
     margin-top: 0px;
     padding-top: 30px;
   }
 
   .lista-instalacoes, .lista {
     padding: 0px 15px;
-    font-size: 125%;
   }
 
   .destaque {
