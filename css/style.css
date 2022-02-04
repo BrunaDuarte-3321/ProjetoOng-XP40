@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&display=swap");
 
 :root {
   --white: #ffffff;
@@ -12,7 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 
 /* ajuste 1° banner + blockquote */
 #home-quote {
-  background: url('../img/banner.png') center center;
+  background: url("../img/banner.png") center center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -129,8 +129,8 @@ em {
     display: none;
   }
   .voluntario p {
-    font-size: 18px;    
-  }  
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -157,87 +157,8 @@ em {
   }
 }
 
- .sobre { 
-  padding-left: 190px;
-  margin-top:100px;
-  color:var(--blue)
-  }
-  .container.sobrenos{
-    max-width: 1620px !important;
-   
-  }
-  .sntitulo{
-    text-align: center;
-    margin-top:50px;
-    color:var(--gray);
-  }
-
-  .sntitulo, .saude, .recre{
-    border-width: 5px;
-    border-top-style: solid;
-    border-image: linear-gradient(90deg, rgba(0,0,0,0) 10%, rgba(242,183,5,1) 50%,rgba(0,0,0,0) 90%) 1 0%;
-    padding-top: 20px;
-  }
-  
-  .text{
-    text-align: justify;
-    font-size:125%;
-  }
-.lista{
-  padding-left:190px;
-  font-size:125%;
-  margin-top:50px;
-  padding-bottom: 150px;
-  padding-top:100px
-}
-.container.org{
-  max-width: 100% !important;
-  margin-top: 120px;
-  background-color: #A5D5DF;
-  padding-top:100px;
-  padding-bottom: 190px;
-
-}
-.outro{
-  margin-top:100px;
-  margin-right:120px
-}
-.recre{
- text-align: center;
- margin-top:60px;
- color:var(--gray)
-}
-.col-9{
-  text-align: justify;
-  font-size:125%;
-}
-.col-3{
-  text-align: center;
-  margin-top:30px;
-  padding-top: 50px;
-  padding-right:10px;
-}
-.parag{
-  margin-top:50px
-}
-.saude{
-  text-align: center;
-  color:var(--gray)
-}
-.parag2{
-  text-align: justify;
-  font-size:125%;
-  padding-left:190px;
-  padding-top:100px;
-}
-.titlista{
-  padding-left:190px;
-  font-size:125%;
-  
-}
 h2{
   color:#8e8888;
- 
 }
 
 /* Ajustes do Accordion Informativo */
@@ -245,4 +166,3 @@ h2{
 .accordion{
   color: none !important;
 }
-.

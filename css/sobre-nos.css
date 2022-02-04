@@ -1,0 +1,132 @@
+:root {
+    --white: #ffffff;
+    --yellow: #f2b705;
+    --blue: #03738c;
+    --gray: #8e8888;
+  }
+
+.titulo {
+  padding-left: 190px;
+  margin-top: 100px;
+  color: var(--blue);
+}
+.container.sobrenos {
+  max-width: 1620px !important;
+}
+.sntitulo {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--gray);
+}
+
+.sntitulo,
+.saude-titulo,
+.recreacao-titulo {
+  border-width: 5px;
+  border-top-style: solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0) 10%,
+      var(--yellow) 50%,
+      rgba(0, 0, 0, 0) 90%
+    )
+    1 0%;
+  padding-top: 20px;
+}
+
+.coluna-texto {
+  text-align: justify;
+  font-size: 125%;
+}
+.lista {
+  padding-left: 190px;
+  font-size: 125%;
+  margin-top: 50px;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+.container.org {
+  max-width: 100% !important;
+  margin-top: 120px;
+  background-color: #a5d5df;
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+.outro {
+  margin-top: 100px;
+  margin-right: 120px;
+}
+.recreacao-titulo {
+  text-align: center;
+  margin-top: 60px;
+  color: var(--gray);
+}
+
+.org h2 {
+  margin-bottom: 50px;
+}
+
+.saude-titulo {
+  text-align: center;
+  color: var(--gray);
+}
+
+.lista-instalacoes {
+  padding-left: 190px;
+  font-size: 125%;
+}
+
+h2 {
+  color: var(--gray);
+}
+
+.texto-beneficente {
+  margin-right: 50px;
+}
+
+.sobre-nos-imagem {
+  max-width: 805px;
+  margin-top: 80px;
+}
+
+.org-imagens{
+    width: 100%;
+    max-width: 200px;
+}
+
+.coluna-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .sobre-nos-imagem {
+    max-width: 805px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-nos-imagem {
+    max-width: 748px;
+    min-width: 748px;
+    margin-top: 30px;
+  }
+
+  .texto-beneficente {
+    margin-right: 0px;
+  }
+
+  .titulo {
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+
+  .lista-instalacoes, .lista {
+    padding: 0px 15px;
+    font-size: 125%;
+  }
+}
