@@ -34,3 +34,15 @@ input {
   background-color: var(--blue);
   color: var(--white);
 }
+
+/* Media queries */
+
+@media screen and (max-width: 800px) {
+  .central {
+    display: grid;
+    justify-content: center;
+  }
+  .contato-map-responsive {
+    padding-bottom: 50px;
+  }
+}
